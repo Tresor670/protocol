@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Understanding Communication Protocols</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Understanding Communication Protocols</h1>
+  </header>
+
+  <!-- Section 1: HTTP vs HTTPS -->
+  <section>
+    <h2>HTTP vs. HTTPS</h2>
+    <p>
+      HTTP (HyperText Transfer Protocol) is the original standard for transmitting data over the web.
+      However, it sends data in plain text, making it vulnerable to hackers. HTTPS (HyperText Transfer Protocol Secure)
+      enhances this by using SSL/TLS encryption to protect the data during transmission, making it safe for handling sensitive
+      information like passwords or credit cards.
+    </p>
+    <p><strong>Example:</strong> HTTP: <code>http://example.com</code> vs. HTTPS: <code>https://example.com</code></p>
+
+    <table>
+      <caption>Comparison of HTTP and HTTPS</caption>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>HTTP</th>
+          <th>HTTPS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Security</td>
+          <td>No encryption</td>
+          <td>Encrypted using SSL/TLS</td>
+        </tr>
+        <tr>
+          <td>Port</td>
+          <td>80</td>
+          <td>443</td>
+        </tr>
+        <tr>
+          <td>Browser Indicator</td>
+          <td>No padlock</td>
+          <td>Padlock icon shown</td>
+        </tr>
+        <tr>
+          <td>SEO Ranking</td>
+          <td>Lower</td>
+          <td>Higher (preferred by search engines)</td>
+        </tr>
+        <tr>
+          <td>Use Case</td>
+          <td>Non-sensitive websites</td>
+          <td>Secure login, banking, e-commerce</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Section 2: FTP vs SFTP -->
+  <section>
+    <h2>FTP vs. SFTP</h2>
+    <p>
+      FTP (File Transfer Protocol) is used for transferring files between devices over a network.
+      However, it sends data, including usernames and passwords, in plain text. SFTP (Secure File Transfer Protocol)
+      is a more secure alternative that uses SSH (Secure Shell) to encrypt the file and login information, making it ideal for
+      secure data transfers.
+    </p>
+    <p><strong>Example:</strong> FTP is like sending a postcard anyone can read; SFTP is like sending a sealed, private envelope.</p>
+  </section>
+
+  <!-- Importance of secure protocols -->
+  <section>
+    <h2>The Importance of Secure Communication Protocols</h2>
+    <p>
+      Secure communication protocols such as HTTPS and SFTP protect private and sensitive data from hackers and
+      unauthorized access. They ensure data integrity, build user trust, and are essential in today's digital age for maintaining
+      cybersecurity and compliance.
+    </p>
+    <img src="wikipemedia.png"
+         alt="wikipemedia.png" />
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Communication Protocols Webpage</p>
+  </footer>
+</body>
+</html>
